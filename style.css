@@ -1,0 +1,424 @@
+body{
+    background-color: aliceblue;
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#name{
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1390px;
+    font-family: aziz;
+    margin-top: 5px;
+      }
+    
+
+.inline{
+    display: inline;
+    padding-right: 50px;
+    
+}
+
+#burger{
+    overflow: hidden;
+        /* background-color: #333; */
+        position: relative;
+}
+    
+        
+      
+
+
+.navigation>a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+
+}
+/* .inline>a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.inline>a:hover::after{
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    font-size: 15px;
+    text-shadow: 0px 0px  10px rgb(255, 0, 0);
+    border-bottom: 1px solid red;
+    transform-origin: left;
+    transform: scaleX(1);
+} */
+.navigation>a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.navigation> a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation> a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navigation> a:hover{
+    text-shadow: 2px 2px 10px red;
+    font-size: 18px;
+}
+ #home{
+    margin-top: -15px;
+    text-align: center;
+    background-image: url(./IMG/computer.jpg) ;
+    background-size: 1500px;
+    height: 600px;    
+    background-attachment: fixed;
+    height: 600px;
+    background-repeat: no-repeat    ;
+    
+}
+
+
+
+#ready{
+    padding-top: 125px;
+    font-size: 28px;
+    text-shadow: 0px 0px 15px black;
+    color: azure;
+    
+}
+
+#ready>input{
+            border-radius:50px ;
+            height: 40px;
+            background-color: transparent;
+            color: black;
+            border: 3px solid black;
+            text-shadow: 0px 0px 10px white;
+            font-size: 19px;
+}
+
+
+
+#ready>input:hover{
+
+     border-radius:50px ; 
+    /* height: 30px; */
+    color: aliceblue;
+    background-color: rgb(66, 62, 62); 
+    cursor: pointer;;
+    
+    
+}
+
+
+
+
+#ready>input:active{
+    border-radius:50px ;
+    height: 40pxpx;
+    color: aliceblue;
+    background-color: rgb(66, 62, 62);
+    height: 25px;
+    width: 105px;
+    text-align: center; 
+
+ }
+
+#laptop{
+    margin-top: 70px;
+
+}
+
+#laptop>img{
+    width: 550px;
+    height: 420px;
+}
+
+#lap{
+    float: right;
+    padding-top: 120px;
+    padding-right: 100px;
+    text-align: center;
+    width: 500px;
+    word-spacing: 8px;
+    font-size: 25px;
+}
+
+#lap>img{
+    margin-top: -35px;
+}
+
+div>#img{
+    padding-left: 90px;
+}
+
+#professional{
+    text-align: center;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    background-color:rgba(239, 225, 225, 0.751) ;
+    height: 200px;
+    padding-top: 80px;
+    color: black;
+    font-size: 25px;
+
+}
+
+#professional>img{
+    margin-top: -36px;
+}
+
+#experience{
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+#experience>img{
+        height: 359px;
+        width: 500px;
+        padding-left: 40px;
+}
+
+.experience>#exp{
+    float: right;
+    margin-top: -400px;
+    /* padding-right: px; */
+    font-size: 25PX;
+}
+
+
+.pedu{
+margin-top: 100px;
+}
+#education{
+    text-align: center;
+    background-color: rgba(239, 225, 225, 0.751);
+    height: 200px;
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+
+#edu>img{
+    height: 300px;
+    width: 400px;
+    float: right;
+    padding-right: 90px;
+    padding-top: 60px;
+}
+
+
+#QUALIFICATION{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+
+
+#skil{
+    margin-top: 100px;
+    /* float: right; */
+}
+
+#professionalskil{
+   float: right;
+   font-size: 25px;
+
+}
+
+
+#skilimg>img{
+        height: 440px;
+        width: 590px;
+}
+
+
+
+#ul>ul{
+    padding-right: 50px;
+    padding-top: 50px   ;
+    float: right;
+    font-size: 25px;
+    word-spacing: 3px;
+    margin-top: -20px;
+    padding-right: 170px;
+    
+}
+
+#language{
+    text-align: center;
+    font-size: 35px;
+}
+
+#english{
+    text-align: center;
+    font-size: 35px;
+}
+
+.language{
+    background-image: url(./IMG/map.avif);
+    background-attachment: fixed;
+    height: 800px;
+    text-shadow: 0px 0px 10px whitesmoke;
+    margin-top: -50px;
+}
+
+
+#objectives>div{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+
+
+#objectives>p{
+    max-width: 750px;
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+
+#objectives>img{
+        float: right;
+        width: 440px;
+        height: 300px;
+        margin-top: -280px;
+        padding-right: 50PX;
+        
+}
+
+
+
+.ob{
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(239, 225, 225, 0.751);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#objectives{
+    height: 200px;
+}
+
+#gallery{
+margin-top: 150px;
+height: 200px;
+text-align: center;
+font-size: 35px;
+background-color: rgba(239, 225, 225, 0.751);
+padding-top: 30px;
+
+}
+
+
+
+#gimg{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    padding-top: 100px; 
+    padding-bottom: 50px;
+    
+}
+
+#img1{
+    padding-left: 120px;
+}
+
+#img2{
+    padding-left: 150px;
+}
+
+
+#carouselExampleFade{
+    height: 500px;
+    width: 500px;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* margin: auto; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
